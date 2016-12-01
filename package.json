@@ -1,0 +1,31 @@
+{
+    "author": "tomcat94@ymail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "low-battery",
+    "pebble": {
+        "displayName": "Low(?) Battery",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/tinyBattery.png",
+                    "name": "IMAGE_BATTERY",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "4c80f223-35a4-430e-9065-b8cd8494f046",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
